@@ -3,4 +3,7 @@ method: "POST",
 heasers: {
  "Content-Type": "application/json",
 },
-body,
+body: JSON.stringiy ([
+{"nome") "Gioco1", "Game1", "stato", "non attivo",
+"[Indovinelli"([
+     ("indovinello1": "
