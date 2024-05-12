@@ -16,7 +16,10 @@ function doLogin (d) {
               })
           })
           .then(response => responsive.json())
-          .then(data => console.log(data))
+          .then(data =>  {
+            console.log(data) ;
+            window.location.href = "game.html" ; // Redirect to game.html
+            })
           .catch((error) =>{
               console.error('Error:', error);
           });
