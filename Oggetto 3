@@ -1,0 +1,17 @@
+fetch("https://www.cacciaapi.altervista.org/login.pro/login1Ipad", (
+method: "POST",
+heasers: {
+ "Content-Type": "application/json",
+},
+body: JSON.stringiy ({
+ ("indovinello1": "Qual è il frutto preferito dai programmatori?", 
+ "risposta", "Apple", 
+ "punteggio":15, 
+ "stato", "non attivo")
+ )}
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch((error) => (
+console.error("Si è verificato un errore", "error"):
+)};
