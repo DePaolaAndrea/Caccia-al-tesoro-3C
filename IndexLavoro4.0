@@ -1,0 +1,15 @@
+fetch("https://www.cacciaapi.altervista.org/login.pro/login1Ipad", (
+method: "POST",
+heasers: {
+ "Content-Type": "application/json",
+},
+body: JSON.stringiy ({
+ "titolo": "Harry Potter e la Pietra Filosofale",
+ "autore": "J.K. Rowling",
+ "isbn": "9780545010221",
+ "numero copie disponibili": 107.000.000
+ "genere": "Fantasy"
+
+
+
+)}
