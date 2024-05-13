@@ -4,11 +4,11 @@ heasers: {
  "Content-Type": "application/json",
 },
 body: JSON.stringiy ([
-{"nome") "Gioco1", "Game1", "stato", "non attivo",
-"[Indovinelli"([
-     ("indovinello1": "Qual è il frutto preferito dai programmatori?", "risposta", "Apple", "punteggio":15, "stato", "non attivo")
-     ("indovinello2": "Qual è il sito web preferito dei fantasmi?", "risposta", "Boo-gle", "punteggio": 20 "stato", "attivo")
-     ("indovinello3": "Perché gli algoritmi sono così cattivi a tennis?", "riposta", " Perché hanno problemi con i loro servizi!", "punteggio":40 "stato", "attivo")
+"nome": "Gioco1","codice": "Game1", "stato",: "non attivo",
+"Indovinelli"
+     {"indovinello1": "Qual è il frutto preferito dai programmatori?", "risposta", "Apple", "punteggio":15, "stato", "non attivo"}
+     {"indovinello2": "Qual è il sito web preferito dei fantasmi?", "risposta", "Boo-gle", "punteggio": 20 "stato", "attivo"}
+     {"indovinello3": "Perché gli algoritmi sono così cattivi a tennis?", "riposta", " Perché hanno problemi con i loro servizi!", "punteggio":40 "stato", "attivo"}
   ]
  )}
 })
