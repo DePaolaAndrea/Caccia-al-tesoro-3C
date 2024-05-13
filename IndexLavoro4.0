@@ -4,11 +4,13 @@ heasers: {
  "Content-Type": "application/json",
 },
 body: JSON.stringiy ({
- "titolo": "Harry Potter e la Pietra Filosofale",
- "autore": "J.K. Rowling",
- "isbn": "9780545010221",
- "numero copie disponibili": 107.000.000
+ "titolo": "Harry Potter e la Pietra Filosofale"
+ "anno di uscita": "2001"
+ "regista”: “Christian Columbus”
+ "durata": “152 minuti”
  "genere": "Fantasy"
+ “ID FILM”: “54765”
+
 
 
 
